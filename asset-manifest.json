@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-app/static/css/main.3bbf2bd4.chunk.css",
+    "main.js": "/react-app/static/js/main.74caf523.chunk.js",
+    "main.js.map": "/react-app/static/js/main.74caf523.chunk.js.map",
+    "runtime-main.js": "/react-app/static/js/runtime-main.d9118303.js",
+    "runtime-main.js.map": "/react-app/static/js/runtime-main.d9118303.js.map",
+    "static/css/2.4bc76174.chunk.css": "/react-app/static/css/2.4bc76174.chunk.css",
+    "static/js/2.8e49a6ab.chunk.js": "/react-app/static/js/2.8e49a6ab.chunk.js",
+    "static/js/2.8e49a6ab.chunk.js.map": "/react-app/static/js/2.8e49a6ab.chunk.js.map",
+    "static/js/3.cf3d53c4.chunk.js": "/react-app/static/js/3.cf3d53c4.chunk.js",
+    "static/js/3.cf3d53c4.chunk.js.map": "/react-app/static/js/3.cf3d53c4.chunk.js.map",
+    "index.html": "/react-app/index.html",
+    "static/css/2.4bc76174.chunk.css.map": "/react-app/static/css/2.4bc76174.chunk.css.map",
+    "static/css/main.3bbf2bd4.chunk.css.map": "/react-app/static/css/main.3bbf2bd4.chunk.css.map",
+    "static/js/2.8e49a6ab.chunk.js.LICENSE.txt": "/react-app/static/js/2.8e49a6ab.chunk.js.LICENSE.txt",
+    "static/media/ava.5e39b5b4.png": "/react-app/static/media/ava.5e39b5b4.png",
+    "static/media/vlcsnap-2021-02-24-00h31m29s139.7c501eac.png": "/react-app/static/media/vlcsnap-2021-02-24-00h31m29s139.7c501eac.png",
+    "static/media/vlcsnap-2021-02-24-00h36m21s939.4a9636ce.png": "/react-app/static/media/vlcsnap-2021-02-24-00h36m21s939.4a9636ce.png",
+    "static/media/vlcsnap-2021-02-24-01h08m42s083.6218f8fe.png": "/react-app/static/media/vlcsnap-2021-02-24-01h08m42s083.6218f8fe.png",
+    "static/media/vlcsnap-2021-02-24-01h14m01s999.5545eede.png": "/react-app/static/media/vlcsnap-2021-02-24-01h14m01s999.5545eede.png",
+    "static/media/vlcsnap-2021-05-12-13h25m15s983.7db0dc7b.png": "/react-app/static/media/vlcsnap-2021-05-12-13h25m15s983.7db0dc7b.png",
+    "static/media/vlcsnap-2021-05-12-13h29m40s652.186b3482.png": "/react-app/static/media/vlcsnap-2021-05-12-13h29m40s652.186b3482.png",
+    "static/media/vlcsnap-2021-05-12-13h48m39s505.2e962773.png": "/react-app/static/media/vlcsnap-2021-05-12-13h48m39s505.2e962773.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9118303.js",
+    "static/css/2.4bc76174.chunk.css",
+    "static/js/2.8e49a6ab.chunk.js",
+    "static/css/main.3bbf2bd4.chunk.css",
+    "static/js/main.74caf523.chunk.js"
+  ]
+}
