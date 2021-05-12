@@ -1,0 +1,25 @@
+.container-swaper {
+  padding: 30px ;
+}
+.wrapper-swaper {
+  padding: 15px 20px 70px 20px;
+ }
+.container-swaper img {
+  max-width: 80%;
+}
+.swiper-slide {
+  text-align: center;
+  }
+.swiper-button-prev::after,
+.swiper-button-next::after
+{
+  color: #2b292b;
+}
+.swiper-pagination-bullet{
+  background-color: #2b292b;
+  font-size: 14px;
+  line-height: 30px;
+ }
+.swiper-container-horizontal .swiper-pagination-bullets{
+    bottom: 0;
+}

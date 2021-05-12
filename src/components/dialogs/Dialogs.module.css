@@ -1,0 +1,33 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+.dialogsItem {
+  padding: 10px;
+}
+.messages {
+  padding: 10px;
+}
+
+.dialog {
+  color: rgb(43, 42, 42);
+}
+.dialog a {
+  color: rgb(43, 42, 42);
+  text-decoration: none;
+}
+.dialog a.activeLink {
+ color: rgb(41, 175, 168);
+}
+.fieldArea {
+  padding-left: 10px;
+}
+.blockButton{
+  padding: 10px;
+}
+.button{
+  text-decoration: none;
+  background-color: #4072cf;
+  border: 2px solid #020202;
+  color: rgb(255, 255, 255);
+}

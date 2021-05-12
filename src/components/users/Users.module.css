@@ -1,0 +1,16 @@
+.userPhoto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    
+}
+
+.containerUser{
+    padding-left: 10px;
+}
+.containerUser button{
+    text-decoration: none;
+    background-color: #4072cf;
+    border: 2px solid #020202;
+    color: rgb(255, 255, 255);
+}

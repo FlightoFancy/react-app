@@ -1,0 +1,38 @@
+.formControl.error input,
+.formControl.error textarea {
+  border: solid rgb(233, 29, 29) 2px;
+}
+
+.formControl.error span {
+  color: rgb(214, 16, 16);
+}
+.formSummaryError {
+  border: solid rgb(233, 29, 29) 2px;
+  padding: 5px;
+  color: rgb(161, 12, 12);
+}
+
+.formContainer, h1{
+  text-align: center;
+}
+.formCheck input{
+  margin-right: 170px;
+
+}
+.checkboxText{
+  margin-right: 85px;
+  
+}
+.buttonLoginBlock{
+  margin-right: 130px;
+  padding: 5px;
+}
+.fieldLogin{
+  padding: 5px;
+}
+.buttonLogin{
+  text-decoration: none;
+  background-color: #4072cf;
+  border: 2px solid #020202; 
+    color: rgb(255, 255, 255);
+}
