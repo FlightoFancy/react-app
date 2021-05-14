@@ -11,7 +11,7 @@ import { Textarea } from "../../common/formsControls/formsControls";
 let maxLength10 = maxLengthCreator(10);
 const MyPosts = (props) => {
    let postsElement = props.posts.map((p) => (
-    <Post message={p.message} id={p.id} likesCount={p.likesCount} />
+    <Post key={p.id} message={p.message} id={p.id} likesCount={p.likesCount} />
   ));
   let onAddPost = (values) => {
     props.addPost(values.newPostText);
