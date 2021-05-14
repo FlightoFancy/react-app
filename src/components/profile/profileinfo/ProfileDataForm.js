@@ -3,13 +3,12 @@ import { required } from "../../../utils/validators/validators";
 import { Input, Textarea } from "../../common/formsControls/formsControls";
 import s from "./Profileinfo.module.css";
 
-
-const ProfileDataForm = ({ handleSubmit, profile,error }) => {
+const ProfileDataForm = ({ handleSubmit, profile, error }) => {
   return (
     <form onSubmit={handleSubmit}>
-        <div>
-          <button>save</button>
-        </div>
+      <div>
+        <button className={s.buttonEdit}>save</button>
+      </div>
       {error && <div className={s.formSummaryError}>{error}</div>}
       <div>
         <b>Full name</b>:
@@ -33,7 +32,6 @@ const ProfileDataForm = ({ handleSubmit, profile,error }) => {
           name="lookingForAJobDescription"
           placeholder="My professional skills"
           component={Textarea}
-          validate={[required]}
         />
       </div>
 
@@ -44,7 +42,6 @@ const ProfileDataForm = ({ handleSubmit, profile,error }) => {
           name="aboutMe"
           placeholder="About me"
           component={Textarea}
-          validate={[required]}
         />
       </div>
       <div>
@@ -58,7 +55,6 @@ const ProfileDataForm = ({ handleSubmit, profile,error }) => {
                 name={"contacts." + key}
                 placeholder={key}
                 component={Input}
-                
               />
             </div>
           );

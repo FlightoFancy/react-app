@@ -12,13 +12,13 @@
   color: #fff;
   font-size: 12px;
   font-weight: bold;
-  margin: 10px 0 10px 100px;
   overflow: hidden;
   padding: 0.5em;
   position: relative;
   text-align: center;
   width: 100px;
   cursor: pointer;
+  margin: 10px 0 0 100px;
 }
 .fileUpload:hover,
 .fileUpload:active,
@@ -52,11 +52,25 @@ input[type="file"] {
   padding: 6px 12px;
   cursor: pointer;
 }
-.contact{
+.contact {
   padding-left: 15px;
 }
 .formSummaryError {
   border: solid rgb(233, 29, 29) 2px;
   padding: 5px;
   color: rgb(161, 12, 12);
+}
+.status {
+  padding-right: 30px;
+  float: right;
+}
+.profileData {
+  padding-right: 200px;
+  float: right;
+}
+.buttonEdit{
+  text-decoration: none;
+  background-color: #a9aaaa;
+  border: 2px solid #020202;
+  color: rgb(255, 255, 255);
 }
