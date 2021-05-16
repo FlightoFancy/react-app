@@ -78,7 +78,7 @@ const ProfileData = ({ profile, isOwner, goToEditMode }) => {
       {isOwner && (
         <div>
           <button className={s.buttonEdit} onClick={goToEditMode}>
-            edit
+            Редактировать
           </button>
         </div>
       )}
