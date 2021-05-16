@@ -10,29 +10,33 @@
   border: solid rgb(233, 29, 29) 2px;
   padding: 5px;
   color: rgb(161, 12, 12);
+  width: 300px;
 }
 
-.formContainer, h1{
+.formContainer,
+h1 {
   text-align: center;
 }
-.formCheck input{
-  margin-right: 170px;
-
+.formCheck {
+  display: grid;
+  grid-template-columns: 10% 90%;
 }
-.checkboxText{
-  margin-right: 85px;
-  
+.checkbox {
+  padding-right: 50px;
 }
-.buttonLoginBlock{
-  margin-right: 130px;
+.buttonLoginBlock {
   padding: 5px;
 }
-.fieldLogin{
+.fieldLogin {
   padding: 5px;
 }
-.buttonLogin{
+.buttonLogin {
   text-decoration: none;
   background-color: #4072cf;
-  border: 2px solid #020202; 
-    color: rgb(255, 255, 255);
+  border: 2px solid #020202;
+  color: rgb(255, 255, 255);
+}
+.formContainer {
+  display: grid;
+  justify-items: center;
 }
