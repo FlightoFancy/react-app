@@ -61,16 +61,21 @@ input[type="file"] {
   color: rgb(161, 12, 12);
 }
 .status {
-  padding-right: 30px;
-  float: right;
+  display: grid;
+justify-items: center;
 }
 .profileData {
-  padding-right: 200px;
-  float: right;
+display: grid;
+justify-items: center;
+padding: 10px;
 }
 .buttonEdit{
   text-decoration: none;
   background-color: #a9aaaa;
   border: 2px solid #020202;
   color: rgb(255, 255, 255);
+}
+.containerProfileinfo{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
 }

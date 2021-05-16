@@ -19,9 +19,7 @@ const MyPosts = (props) => {
 
   return (
     <div className={s.myposts}>
-      <div>
         <h3>Мои посты</h3>
-      </div>
       <AddMyReduxPostForm onSubmit={onAddPost} />
       <div className={s.posts}>{postsElement}</div>
     </div>

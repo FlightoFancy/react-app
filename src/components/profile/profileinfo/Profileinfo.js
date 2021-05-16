@@ -28,11 +28,7 @@ const Profileinfo = ({
     });
   };
   return (
-    <div>
-      <div className={s.status}>
-        <ProfileStatusWithHooks status={status} updateStatus={updateStatus} />
-      </div>
-
+    <div className={s.containerProfileinfo}>
       <div className={s.descriptionBlock}>
         <img
           src={
@@ -40,23 +36,6 @@ const Profileinfo = ({
             "https://i.pinimg.com/originals/8a/eb/d8/8aebd875fbddd22bf3971c3a7159bdc7.png"
           }
         />
-        <div className={s.profileData}>
-          {editMode ? (
-            <ProfileDataForm
-              initialValues={profile}
-              profile={profile}
-              onSubmit={onSubmit}
-            />
-          ) : (
-            <ProfileData
-              goToEditMode={() => {
-                setEditMode(true);
-              }}
-              profile={profile}
-              isOwner={isOwner}
-            />
-          )}
-        </div>
         {isOwner && (
           <div className={s.fileUpload}>
             <input
@@ -67,6 +46,27 @@ const Profileinfo = ({
             <span>Загрузить</span>
           </div>
         )}
+      </div>
+
+      <div className={s.profileData}>
+        {editMode ? (
+          <ProfileDataForm
+            initialValues={profile}
+            profile={profile}
+            onSubmit={onSubmit}
+          />
+        ) : (
+          <ProfileData
+            goToEditMode={() => {
+              setEditMode(true);
+            }}
+            profile={profile}
+            isOwner={isOwner}
+          />
+        )}
+      </div>
+      <div className={s.status}>
+        <ProfileStatusWithHooks status={status} updateStatus={updateStatus} />
       </div>
     </div>
   );
@@ -83,18 +83,18 @@ const ProfileData = ({ profile, isOwner, goToEditMode }) => {
         </div>
       )}
       <div>
-        <b>Full name: {profile.fullName}</b>
+        <b>Full name</b>: {profile.fullName}
       </div>
       <div>
-        <b>Looking for a job: {profile.lookingForAJob ? "yes" : "no"}</b>
+        <b>Looking for a job</b>: {profile.lookingForAJob ? "yes" : "no"}
       </div>
       {profile.lookingForAJob && (
         <div>
-          <b>My professional skills:{profile.lookingForAJobDescription}</b>
+          <b>My professional skills</b>: {profile.lookingForAJobDescription}
         </div>
       )}
       <div>
-        <b>About me: {profile.aboutMe}</b>
+        <b>About me</b>: {profile.aboutMe}
       </div>
       <div>
         <b>Contacts</b>:
