@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Footer from "../footer/Footer";
 import Nav from "../nav/Nav";
-import { Route, withRouter } from "react-router-dom";
+import { Route, Switch, withRouter } from "react-router-dom";
 import DialogsContainer from "../dialogs/DialogsContainer";
 import UsersContainer from "../users/UsersContainer";
 import ProfileContainer from "../profile/ProfileContainer";
@@ -27,11 +27,18 @@ class App extends React.Component {
         <HeaderContainer />
         <Nav />
         <div className="app-wrapper-content">
-          <Route path="/profile/:userId?" render={() => <ProfileContainer />} />
-          <Route path="/dialogs" render={() => <DialogsContainer />} />
-          <Route path="/users" render={() => <UsersContainer />} />
-          <Route path="/login" render={() => <Login />} />
-          <Route path="/main" render={() => <Main />} />
+          <Switch>
+            <Route exact path="/" render={() => <Main />} />
+            <Route
+              path="/profile/:userId?"
+              render={() => <ProfileContainer />}
+            />
+            <Route path="/dialogs" render={() => <DialogsContainer />} />
+            <Route path="/users" render={() => <UsersContainer />} />
+            <Route path="/login" render={() => <Login />} />
+            <Route path="/main" render={() => <Main />} />
+            <Route path="*" render={() => <div>404 Страница не найдена</div>} />
+          </Switch>
         </div>
         <Footer />
       </div>

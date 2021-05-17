@@ -66,6 +66,7 @@ const Profileinfo = ({
         )}
       </div>
       <div className={s.status}>
+       
         <ProfileStatusWithHooks status={status} updateStatus={updateStatus} />
       </div>
     </div>
@@ -74,7 +75,7 @@ const Profileinfo = ({
 
 const ProfileData = ({ profile, isOwner, goToEditMode }) => {
   return (
-    <div>
+    <div className={s.profileDataBlock}>
       {isOwner && (
         <div>
           <button className={s.buttonEdit} onClick={goToEditMode}>

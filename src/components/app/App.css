@@ -8,7 +8,7 @@
   grid-template-columns: 2fr 10fr;
   grid-gap: 5px;
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
 }
 .app-wrapper-content {
   grid-area: c;

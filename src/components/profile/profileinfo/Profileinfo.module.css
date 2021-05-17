@@ -62,20 +62,25 @@ input[type="file"] {
 }
 .status {
   display: grid;
-justify-items: center;
+  justify-items: center;
+  padding: 10px;
 }
 .profileData {
-display: grid;
-justify-items: center;
-padding: 10px;
+  display: grid;
+  justify-items: center;
+  padding: 10px;
 }
-.buttonEdit{
+.profileDataBlock {
+  max-width: 400px;
+  overflow-wrap: break-word;
+}
+.buttonEdit {
   text-decoration: none;
   background-color: #a9aaaa;
   border: 2px solid #020202;
   color: rgb(255, 255, 255);
 }
-.containerProfileinfo{
+.containerProfileinfo {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
 }
